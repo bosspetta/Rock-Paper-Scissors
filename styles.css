@@ -1,0 +1,62 @@
+body {
+    background: hotpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* utility classes */
+.flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.br-10 {
+    border-radius: 10px;    
+}
+
+/* end of utility classes */
+
+.container {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hand {
+    margin: 0.5rem;
+    height: 50px;
+    width: 50px;
+    background: whitesmoke;
+}
+
+.winner-text {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.winner {
+    border: 5px solid green;
+    transform: scale(1.125)
+}
+
+.draw {
+    border: 5px solid orange;
+    transform: scale(1.125);
+}
+
+button {
+    border: none;
+    padding: 0.5em 1em;
+    width: 100px;
+    cursor: pointer;
+}
